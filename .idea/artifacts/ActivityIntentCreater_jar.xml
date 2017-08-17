@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ActivityIntentCreater:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ActivityIntentCreater_jar</output-path>
+    <root id="archive" name="ActivityIntentCreater.jar">
+      <element id="module-output" name="ActivityIntentCreater2" />
+    </root>
+  </artifact>
+</component>

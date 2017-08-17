@@ -1,0 +1,43 @@
+<idea-plugin version="2">
+    <id>cn.yzl.activityintentcreater</id>
+    <name>ActivityIntentCreater</name>
+    <version>1.5</version>
+    <vendor email="zeliangyi@gmail.com" url="https://github.com/yizeliang/ActivityIntentCreater">yizeliang</vendor>
+
+    <!--<em>most HTML tags may be used</em>-->
+    <description><![CDATA[
+      Help generate intent to start activity.<br>
+    ]]></description>
+
+      <!--<em>most HTML tags may be used</em>-->
+    <change-notes><![CDATA[
+      1.5 Add English instructions
+      1.4:Support for Parcelable, Serializable serialization, type auto conversion and use, support for Parcelable delivery of ArrayList<br>
+      1.0:basic function<br>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action class="cn.yzl.actintentcreater.GenearatorAction"
+                id="ActivityIntentCreator"
+                text="ActivityIntentCreator"
+        >
+            <add-to-group group-id="GenerateGroup"/>
+        </action>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
