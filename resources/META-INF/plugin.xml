@@ -1,16 +1,18 @@
 <idea-plugin version="2">
     <id>cn.yzl.activityintentcreater</id>
     <name>ActivityIntentCreater</name>
-    <version>1.5</version>
+    <version>1.6</version>
     <vendor email="zeliangyi@gmail.com" url="https://github.com/yizeliang/ActivityIntentCreater">yizeliang</vendor>
 
     <!--<em>most HTML tags may be used</em>-->
     <description><![CDATA[
-      Help generate intent to start activity.<br>
+      Help generate intent to start activities of Android.<br/>
+      If you want to transfer data between activity, may have to write a lot of get/set method, and then the next activity out of these parameters. The plug-in can help you accomplish these things, do not have to write a get/set method, create Intent, and provide an initialization parameter to the member variable. See more github:https://github.com/yizeliang/ActivityIntentCreater<br>
     ]]></description>
 
       <!--<em>most HTML tags may be used</em>-->
     <change-notes><![CDATA[
+      1.6 Add detailed description
       1.5 Add English instructions
       1.4:Support for Parcelable, Serializable serialization, type auto conversion and use, support for Parcelable delivery of ArrayList<br>
       1.0:basic function<br>
@@ -23,8 +25,8 @@
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <!-- uncomment to enable plugin in all products
-    <depends>com.intellij.modules.lang</depends>
     -->
+    <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
