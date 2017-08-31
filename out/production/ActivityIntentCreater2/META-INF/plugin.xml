@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>cn.yzl.activityintentcreater</id>
     <name>ActivityIntentCreater</name>
-    <version>1.6</version>
+    <version>1.7</version>
     <vendor email="zeliangyi@gmail.com" url="https://github.com/yizeliang/ActivityIntentCreater">yizeliang</vendor>
 
     <!--<em>most HTML tags may be used</em>-->
@@ -12,10 +12,11 @@
 
       <!--<em>most HTML tags may be used</em>-->
     <change-notes><![CDATA[
-      1.6 Add detailed description
-      1.5 Add English instructions
-      1.4:Support for Parcelable, Serializable serialization, type auto conversion and use, support for Parcelable delivery of ArrayList<br>
-      1.0:basic function<br>
+      1.7 bug<br/>
+      1.6 Add detailed description<br/>
+      1.5 Add English instructions<br/>
+      1.4:Support for Parcelable, Serializable serialization, type auto conversion and use, support for Parcelable delivery of ArrayList<br/>
+      1.0:basic function<br/>
     ]]>
     </change-notes>
 
