@@ -5,7 +5,9 @@
 ![示例][1]
 
 ### 2 下载
-  
+
+**已发布到插件商店**
+
  下载主目录中的ActivityIntentCreater2.jar,然后在AS中选中本地安装,然后选中下载好的jar包即可
  ![AS](https://i.loli.net/2017/08/19/5998455f084d0.png)
  
