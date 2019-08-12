@@ -28,6 +28,7 @@
     <!-- uncomment to enable plugin in all products
     -->
     <depends>com.intellij.modules.lang</depends>
+    <depends>org.jetbrains.kotlin</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
@@ -40,6 +41,19 @@
         >
             <add-to-group group-id="GenerateGroup"/>
         </action>
+        <!--<action class="cn.yzl.actintentcreater.kotlin.GenearatorKotlinAction"-->
+                <!--id="GenearatorKotlinAction"-->
+                <!--text="GenearatorKotlinAction"-->
+        <!--&gt;-->
+            <!--<add-to-group group-id="GenerateGroup"/>-->
+        <!--</action>-->
+
+        <action id="generateParcelableKotlin" class="cn.yzl.actintentcreater.kotlin.GenearatorKotlinAction"
+                text="Parcelable(kotlin)"
+                description="Generates Android Parcelable based on kotlin class fields">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+        </action>
+
         <!-- Add your actions here -->
     </actions>
 
