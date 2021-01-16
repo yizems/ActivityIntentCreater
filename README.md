@@ -1,5 +1,11 @@
 ## ActivityIntentCreater
 
+## 该库过时
+
+请使用`Activity Result API`, 旧版项目可以继续使用, 如果迁移了`androidx`, 建议使用`Activity Result API` 替代`startActivityForResult`;
+
+多说一句: 不建议使用 网上那种 一行代码实现 启动actvity 并获取返回值的: 类似于我的 [StartActivityForResultHelper](https://github.com/yizems/StartActivityForResultHelper); 这种有个很明显的问题, 如果源activity 会回收,是接收不到回调的.
+
 ### 1 使用
 
 ![示例][1]
